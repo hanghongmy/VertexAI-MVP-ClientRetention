@@ -1,8 +1,6 @@
 # 🎯 Vertex AI MVP - Client Retention
 
-curl -X POST \
-  -H "Authorization: Bearer $(gcloud auth print-access-token)" \
-  -H "Content-Type: application/json" \
-  -d @sample_request.json \
-  "https://us-central1-aiplatform.googleapis.com/v1/projects/ethereal-reef-451601-v0/locations/us-central1/endpoints/6155287094127230976:predict"
+Endpoint Name: projects/833114113439/locations/us-central1/endpoints/6155287094127230976
+Monitoring Job: projects/833114113439/locations/us-central1/modelDeploymentMonitoringJobs/1932156355968237568
+Statistics and Anomalies Root Path(Google Cloud Storage): gs://cloud-ai-platform-0004aed9-cd91-43da-9d7b-4e81301c35e4/model_monitoring/job-1932156355968237568
 
